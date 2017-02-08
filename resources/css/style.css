@@ -1,0 +1,164 @@
+/* Broadway design page stylesheet */
+
+html, body {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0;
+	font-family: 'Raleway';
+}
+
+/* header section & background image */
+.header {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	padding-top: 10px;
+	border-bottom: 2.5px solid rgb(60, 178, 160);
+}
+
+.header ul {
+	text-align: left;
+
+}
+.header li {
+	display: inline;
+	padding: 5px;
+}
+
+li a {
+	text-decoration: none;
+	color: gray;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	padding-top: 90px;
+	text-shadow: 20px 0px 0px rgb(60, 178, 160);
+
+}
+
+h1 a {
+	text-decoration: none;
+	color: white;
+
+}
+
+h1 a:hover{
+	text-shadow: 3px 3px 3px black;
+	transition: 1s;
+
+}
+
+/* main 'Our process section' */
+
+h2 {
+	padding-top: -10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.main .col {
+	width: 33%;
+	float: left;
+	text-align: center;
+
+}
+
+.main .container {
+	border-bottom: 3px solid rgb(60, 178, 160);
+	height: 250px;
+}
+
+
+/* contact section & We're hiring */
+.contact {
+	background-color: rgb(60, 178, 160);
+	color: white;
+	height: 320px;
+}
+
+
+.contact .col {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+
+h3 span {
+	font-size: 30px;
+}
+
+.contact h3 {
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
+.contact p {
+	font-size: 18px;
+}
+.contact img {
+	max-width: 85%;
+	max-height: 300px;
+	padding: 10px;
+	float: right;
+}
+
+/* footer and nav list */
+
+.footer {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
